@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoFlow Plumbing Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>CryptoFlow Plumbing Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Your One-Stop Shop for Plumbing Materials & Tools</h2>
+            <p>Find everything you need for plumbing repairs and installations—all from the comfort of your home.</p>
+        </section>
+        <section id="products">
+            <h2>Featured Products</h2>
+            <form id="add-product-form" class="product-form">
+                <input type="text" id="product-name" placeholder="Product Name" required>
+                <input type="text" id="product-description" placeholder="Description" required>
+                <input type="number" id="product-price" placeholder="Price" step="0.01" required>
+                <input type="url" id="product-image" placeholder="Image URL" required>
+                <input type="text" id="product-category" placeholder="Category" required>
+                <button type="submit">Add Product</button>
+            </form>
+            <div class="product-grid">
+                <!-- Rhyming product cards -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Rhyme Time Slime">
+                    <h3>Rhyme Time Slime</h3>
+                    <p>Green and sublime, this slime is prime for rhyme!</p>
+                    <span class="price">$9.99</span>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Pipe Hype Wipe">
+                    <h3>Pipe Hype Wipe</h3>
+                    <p>Wipe your pipe with hype, no gripe, just ripe!</p>
+                    <span class="price">$4.44</span>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Wrench Bench">
+                    <h3>Wrench Bench</h3>
+                    <p>On this bench, use your wrench, no stench, just quench!</p>
+                    <span class="price">$12.12</span>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>CryptoFlow Plumbing Store is dedicated to providing homeowners, DIYers, and professional plumbers with quality plumbing materials and tools at competitive prices.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: support@cryptoflowplumbing.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 CryptoFlow Plumbing Store. All rights reserved.</p>
+    </footer>
+    <script src="src/index.js"></script>
+</body>
+</html>
