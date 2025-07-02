@@ -90,10 +90,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // Auto-match image to product name if left blank or if user requests
             if (!image) {
                 const lower = name.toLowerCase();
-                if (lower.includes('wrench')) {
+                if (lower.includes('pipe wrench')) {
                     image = 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80';
-                } else if (lower.includes('pipe')) {
-                    image = 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80';
+                } else if (lower.includes('adjustable wrench')) {
+                    image = 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80';
+                } else if (lower.includes('pvc pipe') || lower.includes('pipes')) {
+                    image = 'https://images.unsplash.com/photo-1503389152951-9c3d8bca6c63?auto=format&fit=crop&w=400&q=80';
                 } else if (lower.includes('insulation')) {
                     image = 'https://images.unsplash.com/photo-1503389152951-9c3d8bca6c63?auto=format&fit=crop&w=400&q=80';
                 } else {
