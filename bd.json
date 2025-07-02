@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pipe Wrench",
+      "description": "Durable steel pipe wrench for all your plumbing needs.",
+      "price": 19.99,
+      "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+      "category": "Tools"
+    },
+    {
+      "id": 2,
+      "name": "PVC Pipe (1m)",
+      "description": "High-quality PVC pipe, 1 meter length, 2-inch diameter.",
+      "price": 4.5,
+      "image": "https://images.unsplash.com/photo-1503389152951-9c3d8bca6c63?auto=format&fit=crop&w=400&q=80",
+      "category": "Pipes"
+    },
+    {
+      "id": 3,
+      "name": "Adjustable Wrench",
+      "description": "Versatile adjustable wrench for various sizes of nuts and bolts.",
+      "price": 15,
+      "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80",
+      "category": "Tools"
+    },
+    {
+      "id": 4,
+      "name": "Pipe Insulation (10m)",
+      "description": "10 meters of pipe insulation to prevent heat loss.",
+      "price": 12.99,
+      "image": "https://images.unsplash.com/photo-1503389152951-9c3d8bca6c63?auto=format&fit=crop&w=400&q=80",
+      "category": "Insulation"
+    },
+    {
+      "id": 5,
+      "name": "pipes",
+      "description": "good quality",
+      "price": 6,
+      "image": "https://images.unsplash.com/photo-1503389152951-9c3d8bca6c63?auto=format&fit=crop&w=400&q=80",
+      "category": "mastermind"
+    }
+  ]
+}
