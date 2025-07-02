@@ -149,6 +149,14 @@ footer {
     border-radius: 5px;
     font-size: 1rem;
     min-width: 180px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.product-form input[type="text"]:focus,
+.product-form input[type="number"]:focus,
+.product-form input[type="url"]:focus {
+    border-color: #0077b6;
+    box-shadow: 0 0 0 2px #90e0ef44;
+    outline: none;
 }
 .product-form button[type="submit"] {
     background: #0077b6;
@@ -159,6 +167,7 @@ footer {
     font-size: 1rem;
     cursor: pointer;
     transition: background 0.2s;
+    min-width: 120px;
 }
 .product-form button[type="submit"]:hover {
     background: #023e8a;
@@ -178,6 +187,7 @@ footer {
         flex-direction: column;
         align-items: stretch;
         padding: 0.5rem 0.5rem;
+        margin-bottom: 1.5rem;
     }
     .product-form input,
     .product-form button {
