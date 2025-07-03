@@ -72,6 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.error('Failed to load products:', err);
         });
     updateCartCount();
+    
 
     // Handle product form submission
     const form = document.getElementById('add-product-form');
